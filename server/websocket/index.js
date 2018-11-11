@@ -26,16 +26,20 @@ const wss = new WebSocket.Server({
 
 wss.on('connection', function connection(ws) {
   console.log('wss client connected');
-  ws.on('message', (msg) =>
-    msg === 'toggle' && switches.forEach((endpoint) =>
-      endpoint.functional('genOnOff', 'toggle', {}, function (err) {
-        if (!err) {
-          console.log('SWITCH TOGGLE!');
-          wss.broadcast('SWITCH TOGGLE!');
-        }
-      })
-    )
-  );
+  ws.on('message', (msg) => {
+    console.log(`ws message: ${msg}`);
+    if (msg === 'toggle') {
+      console.log({ switches });
+      switches.forEach((endpoint) =>
+        endpoint.functional('genOnOff', 'toggle', {}, function (err) {
+          if (!err) {
+            console.log('SWITCH TOGGLE!');
+            wss.broadcast('SWITCH TOGGLE!');
+          }
+        })
+      )
+    }
+  });
 });
 
 wss.broadcast = function broadcast(data) {

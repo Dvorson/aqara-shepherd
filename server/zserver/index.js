@@ -4,6 +4,7 @@ const EventEmitter = require('events');
 const util = require('util');
 
 const wss = require('../websocket');
+const SmartHome = require('../lib');
 
 const isDevicePresent = fs.existsSync('/dev/ttyACM0');
 let zserver = isDevicePresent ? new ZShepherd('/dev/ttyACM0') : new EventEmitter();
@@ -12,7 +13,7 @@ if (!isDevicePresent) {
     console.log("No zigbee dongle found");
     zserver = {
         permitJoin(sec) {
-            return console.log("Fake pemit join");
+            return console.log("Fake permit join");
         },
         start(cb) {
             console.log("Fake start");
@@ -39,6 +40,7 @@ function devIncoming(msg) {
         wss.broadcast(util.inspect(`Endpoint: ${ep.dump()}`, { depth:10 }));
         if (ep.clusters.has('genOnOff')) {
             switches.push(ep);
+            SmartHome.emit("EPJoin:Switch", { ep });
             /* setInterval(function () {
                 ep.functional('genOnOff', 'toggle', {}, function (err) {
                     if (!err)
@@ -92,4 +94,4 @@ zserver.start(function(err) {
         console.log(err);
 });
 
-module.exports = { zserver, switches };
+module.exports = { zserver };

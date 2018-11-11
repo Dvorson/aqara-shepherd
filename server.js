@@ -1,5 +1,5 @@
 const ZShepherd = require('zigbee-shepherd');
-const zserver = new ZShepherd('/dev/tty.usbmodem1411');
+const zserver = new ZShepherd('/dev/ttyACM0');
 const util = require('util');
 const WebSocket = require('ws');
 

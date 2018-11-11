@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
 const { wssport } = require('../../config');
-const SmartHome = require('../lib');
+const { switches } = require('../lib');
 
 const wss = new WebSocket.Server({
     port: wssport,
@@ -30,7 +30,7 @@ wss.on('connection', function connection(ws) {
     console.log(`ws message: ${msg}`);
     if (msg === 'toggle') {
       console.log({ switches });
-      SmartHome.switches.forEach((endpoint) =>
+      switches.forEach((endpoint) =>
         endpoint.functional('genOnOff', 'toggle', {}, function (err) {
           if (!err) {
             console.log('SWITCH TOGGLE!');

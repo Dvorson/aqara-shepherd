@@ -326,3 +326,1935 @@ _______________________________________________________
   data: '0x00158d0002337190' }
 
 _______________________________________________________
+
+{ msg: 
+   { type: 'devStatus',
+     endpoints: 
+      [ Endpoint {
+          isLocal: [Function],
+          device: 
+           Device {
+             _id: 2,
+             type: 'Router',
+             ieeeAddr: '0x00158d0001f255a1',
+             nwkAddr: 56095,
+             manufId: 4151,
+             manufName: 'LUMI',
+             powerSource: 'DC Source',
+             modelId: 'lumi.ctrl_neutral2',
+             epList: [ 1, 2, 3, 4, 5, 6, 8 ],
+             status: 'online',
+             joinTime: 1541950684,
+             endpoints: 
+              { '1': [Circular],
+                '2': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 2,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '3': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 3,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '4': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 4,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '5': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 5,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '6': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 6,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '8': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 8,
+                   devId: 83,
+                   inClusterList: [ 12 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genAnalogInput: 
+                       { dir: Spec { cid: 'genAnalogInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genAnalogInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] } } },
+          profId: 260,
+          epId: 1,
+          devId: 6,
+          inClusterList: [ 0, 1, 2, 3, 10, 25 ],
+          outClusterList: [ 0, 10, 25 ],
+          clusters: 
+           Ziee {
+             zapp: null,
+             genBasic: 
+              { dir: Spec { cid: 'genBasic', sid: 'dir', value: 3 },
+                attrs: 
+                 Spec {
+                   cid: 'genBasic',
+                   sid: 'attrs',
+                   zclVersion: 0,
+                   appVersion: 18,
+                   stackVersion: 2,
+                   hwVersion: 38,
+                   manufacturerName: 'LUMI',
+                   modelId: 'lumi.ctrl_neutral2',
+                   dateCode: '11-11-2016',
+                   powerSource: 4,
+                   locationDesc: '' } },
+             genPowerCfg: 
+              { dir: Spec { cid: 'genPowerCfg', sid: 'dir', value: 1 },
+                attrs: 
+                 Spec {
+                   cid: 'genPowerCfg',
+                   sid: 'attrs',
+                   mainsVoltage: 0,
+                   mainsAlarmMask: 0,
+                   batteryVoltage: 0 } },
+             genDeviceTempCfg: 
+              { dir: Spec { cid: 'genDeviceTempCfg', sid: 'dir', value: 1 },
+                attrs: 
+                 Spec {
+                   cid: 'genDeviceTempCfg',
+                   sid: 'attrs',
+                   currentTemperature: 29,
+                   lowTempThres: 55,
+                   highTempThres: 60 } },
+             genIdentify: 
+              { dir: Spec { cid: 'genIdentify', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genIdentify', sid: 'attrs', identifyTime: 0 } },
+             genTime: 
+              { dir: Spec { cid: 'genTime', sid: 'dir', value: 3 },
+                attrs: Spec { cid: 'genTime', sid: 'attrs' } },
+             genOta: 
+              { dir: Spec { cid: 'genOta', sid: 'dir', value: 3 },
+                attrs: Spec { cid: 'genOta', sid: 'attrs' } } },
+          onAfDataConfirm: null,
+          onAfReflectError: null,
+          onAfIncomingMsg: null,
+          onAfIncomingMsgExt: null,
+          onZclFoundation: null,
+          onZclFunctional: null,
+          foundation: [Function],
+          functional: [Function],
+          bind: [Function],
+          unbind: [Function],
+          read: [Function],
+          write: [Function],
+          report: [Function] },
+        Endpoint {
+          isLocal: [Function],
+          device: 
+           Device {
+             _id: 2,
+             type: 'Router',
+             ieeeAddr: '0x00158d0001f255a1',
+             nwkAddr: 56095,
+             manufId: 4151,
+             manufName: 'LUMI',
+             powerSource: 'DC Source',
+             modelId: 'lumi.ctrl_neutral2',
+             epList: [ 1, 2, 3, 4, 5, 6, 8 ],
+             status: 'online',
+             joinTime: 1541950684,
+             endpoints: 
+              { '1': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 1,
+                   devId: 6,
+                   inClusterList: [ 0, 1, 2, 3, 10, 25 ],
+                   outClusterList: [ 0, 10, 25 ],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genBasic: 
+                       { dir: Spec { cid: 'genBasic', sid: 'dir', value: 3 },
+                         attrs: 
+                          Spec {
+                            cid: 'genBasic',
+                            sid: 'attrs',
+                            zclVersion: 0,
+                            appVersion: 18,
+                            stackVersion: 2,
+                            hwVersion: 38,
+                            manufacturerName: 'LUMI',
+                            modelId: 'lumi.ctrl_neutral2',
+                            dateCode: '11-11-2016',
+                            powerSource: 4,
+                            locationDesc: '' } },
+                      genPowerCfg: 
+                       { dir: Spec { cid: 'genPowerCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genPowerCfg',
+                            sid: 'attrs',
+                            mainsVoltage: 0,
+                            mainsAlarmMask: 0,
+                            batteryVoltage: 0 } },
+                      genDeviceTempCfg: 
+                       { dir: Spec { cid: 'genDeviceTempCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genDeviceTempCfg',
+                            sid: 'attrs',
+                            currentTemperature: 29,
+                            lowTempThres: 55,
+                            highTempThres: 60 } },
+                      genIdentify: 
+                       { dir: Spec { cid: 'genIdentify', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genIdentify', sid: 'attrs', identifyTime: 0 } },
+                      genTime: 
+                       { dir: Spec { cid: 'genTime', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genTime', sid: 'attrs' } },
+                      genOta: 
+                       { dir: Spec { cid: 'genOta', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genOta', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '2': [Circular],
+                '3': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 3,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '4': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 4,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '5': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 5,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '6': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 6,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '8': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 8,
+                   devId: 83,
+                   inClusterList: [ 12 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genAnalogInput: 
+                       { dir: Spec { cid: 'genAnalogInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genAnalogInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] } } },
+          profId: 260,
+          epId: 2,
+          devId: 256,
+          inClusterList: [ 4, 5, 6, 16 ],
+          outClusterList: [],
+          clusters: 
+           Ziee {
+             zapp: null,
+             genGroups: 
+              { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+             genScenes: 
+              { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+             genOnOff: 
+              { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+             genBinaryOutput: 
+              { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+          onAfDataConfirm: null,
+          onAfReflectError: null,
+          onAfIncomingMsg: null,
+          onAfIncomingMsgExt: null,
+          onZclFoundation: null,
+          onZclFunctional: null,
+          foundation: [Function],
+          functional: [Function],
+          bind: [Function],
+          unbind: [Function],
+          read: [Function],
+          write: [Function],
+          report: [Function] },
+        Endpoint {
+          isLocal: [Function],
+          device: 
+           Device {
+             _id: 2,
+             type: 'Router',
+             ieeeAddr: '0x00158d0001f255a1',
+             nwkAddr: 56095,
+             manufId: 4151,
+             manufName: 'LUMI',
+             powerSource: 'DC Source',
+             modelId: 'lumi.ctrl_neutral2',
+             epList: [ 1, 2, 3, 4, 5, 6, 8 ],
+             status: 'online',
+             joinTime: 1541950684,
+             endpoints: 
+              { '1': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 1,
+                   devId: 6,
+                   inClusterList: [ 0, 1, 2, 3, 10, 25 ],
+                   outClusterList: [ 0, 10, 25 ],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genBasic: 
+                       { dir: Spec { cid: 'genBasic', sid: 'dir', value: 3 },
+                         attrs: 
+                          Spec {
+                            cid: 'genBasic',
+                            sid: 'attrs',
+                            zclVersion: 0,
+                            appVersion: 18,
+                            stackVersion: 2,
+                            hwVersion: 38,
+                            manufacturerName: 'LUMI',
+                            modelId: 'lumi.ctrl_neutral2',
+                            dateCode: '11-11-2016',
+                            powerSource: 4,
+                            locationDesc: '' } },
+                      genPowerCfg: 
+                       { dir: Spec { cid: 'genPowerCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genPowerCfg',
+                            sid: 'attrs',
+                            mainsVoltage: 0,
+                            mainsAlarmMask: 0,
+                            batteryVoltage: 0 } },
+                      genDeviceTempCfg: 
+                       { dir: Spec { cid: 'genDeviceTempCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genDeviceTempCfg',
+                            sid: 'attrs',
+                            currentTemperature: 29,
+                            lowTempThres: 55,
+                            highTempThres: 60 } },
+                      genIdentify: 
+                       { dir: Spec { cid: 'genIdentify', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genIdentify', sid: 'attrs', identifyTime: 0 } },
+                      genTime: 
+                       { dir: Spec { cid: 'genTime', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genTime', sid: 'attrs' } },
+                      genOta: 
+                       { dir: Spec { cid: 'genOta', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genOta', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '2': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 2,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '3': [Circular],
+                '4': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 4,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '5': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 5,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '6': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 6,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '8': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 8,
+                   devId: 83,
+                   inClusterList: [ 12 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genAnalogInput: 
+                       { dir: Spec { cid: 'genAnalogInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genAnalogInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] } } },
+          profId: 260,
+          epId: 3,
+          devId: 256,
+          inClusterList: [ 4, 5, 6, 16 ],
+          outClusterList: [],
+          clusters: 
+           Ziee {
+             zapp: null,
+             genGroups: 
+              { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+             genScenes: 
+              { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+             genOnOff: 
+              { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+             genBinaryOutput: 
+              { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+          onAfDataConfirm: null,
+          onAfReflectError: null,
+          onAfIncomingMsg: null,
+          onAfIncomingMsgExt: null,
+          onZclFoundation: null,
+          onZclFunctional: null,
+          foundation: [Function],
+          functional: [Function],
+          bind: [Function],
+          unbind: [Function],
+          read: [Function],
+          write: [Function],
+          report: [Function] },
+        Endpoint {
+          isLocal: [Function],
+          device: 
+           Device {
+             _id: 2,
+             type: 'Router',
+             ieeeAddr: '0x00158d0001f255a1',
+             nwkAddr: 56095,
+             manufId: 4151,
+             manufName: 'LUMI',
+             powerSource: 'DC Source',
+             modelId: 'lumi.ctrl_neutral2',
+             epList: [ 1, 2, 3, 4, 5, 6, 8 ],
+             status: 'online',
+             joinTime: 1541950684,
+             endpoints: 
+              { '1': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 1,
+                   devId: 6,
+                   inClusterList: [ 0, 1, 2, 3, 10, 25 ],
+                   outClusterList: [ 0, 10, 25 ],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genBasic: 
+                       { dir: Spec { cid: 'genBasic', sid: 'dir', value: 3 },
+                         attrs: 
+                          Spec {
+                            cid: 'genBasic',
+                            sid: 'attrs',
+                            zclVersion: 0,
+                            appVersion: 18,
+                            stackVersion: 2,
+                            hwVersion: 38,
+                            manufacturerName: 'LUMI',
+                            modelId: 'lumi.ctrl_neutral2',
+                            dateCode: '11-11-2016',
+                            powerSource: 4,
+                            locationDesc: '' } },
+                      genPowerCfg: 
+                       { dir: Spec { cid: 'genPowerCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genPowerCfg',
+                            sid: 'attrs',
+                            mainsVoltage: 0,
+                            mainsAlarmMask: 0,
+                            batteryVoltage: 0 } },
+                      genDeviceTempCfg: 
+                       { dir: Spec { cid: 'genDeviceTempCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genDeviceTempCfg',
+                            sid: 'attrs',
+                            currentTemperature: 29,
+                            lowTempThres: 55,
+                            highTempThres: 60 } },
+                      genIdentify: 
+                       { dir: Spec { cid: 'genIdentify', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genIdentify', sid: 'attrs', identifyTime: 0 } },
+                      genTime: 
+                       { dir: Spec { cid: 'genTime', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genTime', sid: 'attrs' } },
+                      genOta: 
+                       { dir: Spec { cid: 'genOta', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genOta', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '2': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 2,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '3': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 3,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '4': [Circular],
+                '5': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 5,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '6': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 6,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '8': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 8,
+                   devId: 83,
+                   inClusterList: [ 12 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genAnalogInput: 
+                       { dir: Spec { cid: 'genAnalogInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genAnalogInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] } } },
+          profId: 260,
+          epId: 4,
+          devId: 0,
+          inClusterList: [ 6, 18 ],
+          outClusterList: [],
+          clusters: 
+           Ziee {
+             zapp: null,
+             genOnOff: 
+              { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+             genMultistateInput: 
+              { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+          onAfDataConfirm: null,
+          onAfReflectError: null,
+          onAfIncomingMsg: null,
+          onAfIncomingMsgExt: null,
+          onZclFoundation: null,
+          onZclFunctional: null,
+          foundation: [Function],
+          functional: [Function],
+          bind: [Function],
+          unbind: [Function],
+          read: [Function],
+          write: [Function],
+          report: [Function] },
+        Endpoint {
+          isLocal: [Function],
+          device: 
+           Device {
+             _id: 2,
+             type: 'Router',
+             ieeeAddr: '0x00158d0001f255a1',
+             nwkAddr: 56095,
+             manufId: 4151,
+             manufName: 'LUMI',
+             powerSource: 'DC Source',
+             modelId: 'lumi.ctrl_neutral2',
+             epList: [ 1, 2, 3, 4, 5, 6, 8 ],
+             status: 'online',
+             joinTime: 1541950684,
+             endpoints: 
+              { '1': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 1,
+                   devId: 6,
+                   inClusterList: [ 0, 1, 2, 3, 10, 25 ],
+                   outClusterList: [ 0, 10, 25 ],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genBasic: 
+                       { dir: Spec { cid: 'genBasic', sid: 'dir', value: 3 },
+                         attrs: 
+                          Spec {
+                            cid: 'genBasic',
+                            sid: 'attrs',
+                            zclVersion: 0,
+                            appVersion: 18,
+                            stackVersion: 2,
+                            hwVersion: 38,
+                            manufacturerName: 'LUMI',
+                            modelId: 'lumi.ctrl_neutral2',
+                            dateCode: '11-11-2016',
+                            powerSource: 4,
+                            locationDesc: '' } },
+                      genPowerCfg: 
+                       { dir: Spec { cid: 'genPowerCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genPowerCfg',
+                            sid: 'attrs',
+                            mainsVoltage: 0,
+                            mainsAlarmMask: 0,
+                            batteryVoltage: 0 } },
+                      genDeviceTempCfg: 
+                       { dir: Spec { cid: 'genDeviceTempCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genDeviceTempCfg',
+                            sid: 'attrs',
+                            currentTemperature: 29,
+                            lowTempThres: 55,
+                            highTempThres: 60 } },
+                      genIdentify: 
+                       { dir: Spec { cid: 'genIdentify', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genIdentify', sid: 'attrs', identifyTime: 0 } },
+                      genTime: 
+                       { dir: Spec { cid: 'genTime', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genTime', sid: 'attrs' } },
+                      genOta: 
+                       { dir: Spec { cid: 'genOta', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genOta', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '2': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 2,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '3': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 3,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '4': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 4,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '5': [Circular],
+                '6': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 6,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '8': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 8,
+                   devId: 83,
+                   inClusterList: [ 12 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genAnalogInput: 
+                       { dir: Spec { cid: 'genAnalogInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genAnalogInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] } } },
+          profId: 260,
+          epId: 5,
+          devId: 0,
+          inClusterList: [ 6, 18 ],
+          outClusterList: [],
+          clusters: 
+           Ziee {
+             zapp: null,
+             genOnOff: 
+              { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+             genMultistateInput: 
+              { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+          onAfDataConfirm: null,
+          onAfReflectError: null,
+          onAfIncomingMsg: null,
+          onAfIncomingMsgExt: null,
+          onZclFoundation: null,
+          onZclFunctional: null,
+          foundation: [Function],
+          functional: [Function],
+          bind: [Function],
+          unbind: [Function],
+          read: [Function],
+          write: [Function],
+          report: [Function] },
+        Endpoint {
+          isLocal: [Function],
+          device: 
+           Device {
+             _id: 2,
+             type: 'Router',
+             ieeeAddr: '0x00158d0001f255a1',
+             nwkAddr: 56095,
+             manufId: 4151,
+             manufName: 'LUMI',
+             powerSource: 'DC Source',
+             modelId: 'lumi.ctrl_neutral2',
+             epList: [ 1, 2, 3, 4, 5, 6, 8 ],
+             status: 'online',
+             joinTime: 1541950684,
+             endpoints: 
+              { '1': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 1,
+                   devId: 6,
+                   inClusterList: [ 0, 1, 2, 3, 10, 25 ],
+                   outClusterList: [ 0, 10, 25 ],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genBasic: 
+                       { dir: Spec { cid: 'genBasic', sid: 'dir', value: 3 },
+                         attrs: 
+                          Spec {
+                            cid: 'genBasic',
+                            sid: 'attrs',
+                            zclVersion: 0,
+                            appVersion: 18,
+                            stackVersion: 2,
+                            hwVersion: 38,
+                            manufacturerName: 'LUMI',
+                            modelId: 'lumi.ctrl_neutral2',
+                            dateCode: '11-11-2016',
+                            powerSource: 4,
+                            locationDesc: '' } },
+                      genPowerCfg: 
+                       { dir: Spec { cid: 'genPowerCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genPowerCfg',
+                            sid: 'attrs',
+                            mainsVoltage: 0,
+                            mainsAlarmMask: 0,
+                            batteryVoltage: 0 } },
+                      genDeviceTempCfg: 
+                       { dir: Spec { cid: 'genDeviceTempCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genDeviceTempCfg',
+                            sid: 'attrs',
+                            currentTemperature: 29,
+                            lowTempThres: 55,
+                            highTempThres: 60 } },
+                      genIdentify: 
+                       { dir: Spec { cid: 'genIdentify', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genIdentify', sid: 'attrs', identifyTime: 0 } },
+                      genTime: 
+                       { dir: Spec { cid: 'genTime', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genTime', sid: 'attrs' } },
+                      genOta: 
+                       { dir: Spec { cid: 'genOta', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genOta', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '2': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 2,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '3': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 3,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '4': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 4,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '5': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 5,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '6': [Circular],
+                '8': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 8,
+                   devId: 83,
+                   inClusterList: [ 12 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genAnalogInput: 
+                       { dir: Spec { cid: 'genAnalogInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genAnalogInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] } } },
+          profId: 260,
+          epId: 6,
+          devId: 0,
+          inClusterList: [ 6, 18 ],
+          outClusterList: [],
+          clusters: 
+           Ziee {
+             zapp: null,
+             genOnOff: 
+              { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+             genMultistateInput: 
+              { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+          onAfDataConfirm: null,
+          onAfReflectError: null,
+          onAfIncomingMsg: null,
+          onAfIncomingMsgExt: null,
+          onZclFoundation: null,
+          onZclFunctional: null,
+          foundation: [Function],
+          functional: [Function],
+          bind: [Function],
+          unbind: [Function],
+          read: [Function],
+          write: [Function],
+          report: [Function] },
+        Endpoint {
+          isLocal: [Function],
+          device: 
+           Device {
+             _id: 2,
+             type: 'Router',
+             ieeeAddr: '0x00158d0001f255a1',
+             nwkAddr: 56095,
+             manufId: 4151,
+             manufName: 'LUMI',
+             powerSource: 'DC Source',
+             modelId: 'lumi.ctrl_neutral2',
+             epList: [ 1, 2, 3, 4, 5, 6, 8 ],
+             status: 'online',
+             joinTime: 1541950684,
+             endpoints: 
+              { '1': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 1,
+                   devId: 6,
+                   inClusterList: [ 0, 1, 2, 3, 10, 25 ],
+                   outClusterList: [ 0, 10, 25 ],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genBasic: 
+                       { dir: Spec { cid: 'genBasic', sid: 'dir', value: 3 },
+                         attrs: 
+                          Spec {
+                            cid: 'genBasic',
+                            sid: 'attrs',
+                            zclVersion: 0,
+                            appVersion: 18,
+                            stackVersion: 2,
+                            hwVersion: 38,
+                            manufacturerName: 'LUMI',
+                            modelId: 'lumi.ctrl_neutral2',
+                            dateCode: '11-11-2016',
+                            powerSource: 4,
+                            locationDesc: '' } },
+                      genPowerCfg: 
+                       { dir: Spec { cid: 'genPowerCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genPowerCfg',
+                            sid: 'attrs',
+                            mainsVoltage: 0,
+                            mainsAlarmMask: 0,
+                            batteryVoltage: 0 } },
+                      genDeviceTempCfg: 
+                       { dir: Spec { cid: 'genDeviceTempCfg', sid: 'dir', value: 1 },
+                         attrs: 
+                          Spec {
+                            cid: 'genDeviceTempCfg',
+                            sid: 'attrs',
+                            currentTemperature: 29,
+                            lowTempThres: 55,
+                            highTempThres: 60 } },
+                      genIdentify: 
+                       { dir: Spec { cid: 'genIdentify', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genIdentify', sid: 'attrs', identifyTime: 0 } },
+                      genTime: 
+                       { dir: Spec { cid: 'genTime', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genTime', sid: 'attrs' } },
+                      genOta: 
+                       { dir: Spec { cid: 'genOta', sid: 'dir', value: 3 },
+                         attrs: Spec { cid: 'genOta', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '2': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 2,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '3': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 3,
+                   devId: 256,
+                   inClusterList: [ 4, 5, 6, 16 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genGroups: 
+                       { dir: Spec { cid: 'genGroups', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genGroups', sid: 'attrs' } },
+                      genScenes: 
+                       { dir: Spec { cid: 'genScenes', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genScenes', sid: 'attrs' } },
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genBinaryOutput: 
+                       { dir: Spec { cid: 'genBinaryOutput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genBinaryOutput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '4': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 4,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '5': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 5,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '6': 
+                 Endpoint {
+                   isLocal: [Function],
+                   device: [Circular],
+                   profId: 260,
+                   epId: 6,
+                   devId: 0,
+                   inClusterList: [ 6, 18 ],
+                   outClusterList: [],
+                   clusters: 
+                    Ziee {
+                      zapp: null,
+                      genOnOff: 
+                       { dir: Spec { cid: 'genOnOff', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genOnOff', sid: 'attrs' } },
+                      genMultistateInput: 
+                       { dir: Spec { cid: 'genMultistateInput', sid: 'dir', value: 1 },
+                         attrs: Spec { cid: 'genMultistateInput', sid: 'attrs' } } },
+                   onAfDataConfirm: null,
+                   onAfReflectError: null,
+                   onAfIncomingMsg: null,
+                   onAfIncomingMsgExt: null,
+                   onZclFoundation: null,
+                   onZclFunctional: null,
+                   foundation: [Function],
+                   functional: [Function],
+                   bind: [Function],
+                   unbind: [Function],
+                   read: [Function],
+                   write: [Function],
+                   report: [Function] },
+                '8': [Circular] } },
+          profId: 260,
+          epId: 8,
+          devId: 83,
+          inClusterList: [ 12 ],
+          outClusterList: [],
+          clusters: 
+           Ziee {
+             zapp: null,
+             genAnalogInput: 
+              { dir: Spec { cid: 'genAnalogInput', sid: 'dir', value: 1 },
+                attrs: Spec { cid: 'genAnalogInput', sid: 'attrs' } } },
+          onAfDataConfirm: null,
+          onAfReflectError: null,
+          onAfIncomingMsg: null,
+          onAfIncomingMsgExt: null,
+          onZclFoundation: null,
+          onZclFunctional: null,
+          foundation: [Function],
+          functional: [Function],
+          bind: [Function],
+          unbind: [Function],
+          read: [Function],
+          write: [Function],
+          report: [Function] } ],
+     data: 'online' } }
+     
+     _______________________________________________________

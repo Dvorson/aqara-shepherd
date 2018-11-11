@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "serialport": "^7.0.2",
+    "ws": "^6.1.0",
     "zigbee-shepherd": "^0.3.0"
   }
 }

@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "serialport": "^7.0.2",
     "zigbee-shepherd": "^0.3.0"
   }
 }

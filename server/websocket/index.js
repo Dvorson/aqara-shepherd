@@ -29,7 +29,7 @@ wss.on('connection', function connection(ws) {
   ws.on('message', (msg) => {
     console.log(`ws message: ${msg}`);
     if (msg === 'toggle') {
-      console.log({ switches });
+      /*  console.log({ switches });
       switches.forEach((endpoint) =>
         endpoint.functional('genOnOff', 'toggle', {}, function (err) {
           if (!err) {
@@ -37,7 +37,7 @@ wss.on('connection', function connection(ws) {
             wss.broadcast('SWITCH TOGGLE!');
           }
         })
-      )
+      ) */
     }
   });
 });
